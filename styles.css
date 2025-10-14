@@ -18,9 +18,8 @@ section {
   padding: 15px;
   border-radius: 10px;
   background-color: #1A1A1A;
-  width: 80%;             
+  width: 80%;
 }
-
 
 ul {
   list-style-type: none;
@@ -32,8 +31,29 @@ li {
   margin: 5px 0;
 }
 
-
 .about { background-color: #272727; }
 .skills { background-color: #333333; }
 .projects { background-color: #3E3E3E; }
 .contact { background-color: #4A4A4A; }
+
+/* -------- New styling for Problem Statement section -------- */
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  width: 80%;
+}
+
+.project img {
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.project p {
+  max-width: 600px;
+  margin-top: 10px;
+  line-height: 1.4;
+}
