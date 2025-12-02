@@ -2,135 +2,164 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jake Adelman - Resume</title>
+    <title>Jake Adelman - CSCE 190 Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-
-    <!-- this HTML was built with help from ChatGPT -->
+    <!-- this HTML content was created with help from ChatGPT -->
 </head>
 <body>
+    <header>
+        <h1>Jake Adelman</h1>
+        <h2>CSCE 190 - Computing in the Modern World</h2>
+    </header>
 
-    <!-- Resume Link Block (already included) -->
-    <div class="resume-links">
-        <span>
-            My Resume:
-            <a href="files/resumev2.pdf">PDF version</a> |
-            <a href="resume.html">HTML version</a>
-        </span>
-    </div>
-
-    <div class="resume-container">
-        <header class="resume-header">
-            <h1>Jake Adelman</h1>
-            <p>Highland Park, IL • 224-727-2272 • 
-                <a href="mailto:adelman.jake@yahoo.com">adelman.jake@yahoo.com</a>
-            </p>
-        </header>
-
-        <section class="resume-section">
-            <h2>Profile</h2>
-            <p>
-                Hardworking college student with a motivated attitude and a variety of useful skills. 
-                Experienced with virtual document management programs and invoices, and with general
-                construction tasks including framing, drywall, painting, and roofing.
-            </p>
+    <main>
+        <!-- ABOUT ME SECTION -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="images/profile.png" alt="Avatar or photo of Jake Adelman" class="profile-pic">
+                <p>
+                    My name is Jake Adelman. I am a first-year Civil Engineering student at the 
+                    University of South Carolina. I am interested in construction, structural design, 
+                    and how technology and software can help solve real-world problems. I enjoy working 
+                    with my hands, learning new tools, and building projects that connect engineering and computing.
+                </p>
+                <p>
+                    My mission is to keep improving my technical skills in both coding and civil engineering, 
+                    so I can work on projects that are useful, efficient, and safe. I want to bring my work 
+                    ethic from construction and sports into my classes, internships, and future career.
+                </p>
+            </div>
         </section>
 
-        <section class="resume-section">
+        <!-- SKILLS / RESUME SECTION -->
+        <section id="skills">
             <h2>Skills</h2>
+            <p>
+                <span>
+                    My resume:
+                    <a href="files/resumev2.pdf">PDF version</a> |
+                    <a href="resume.html">HTML version</a>
+                </span>
+            </p>
             <ul>
-                <li>General labor and construction</li>
-                <li>Roofing and framing</li>
+                <li>General labor and construction (framing, drywall, painting, roofing)</li>
                 <li>Document management software (ImageRight)</li>
                 <li>Microsoft 365 Suite</li>
+                <li>Basic Java programming (input, output, calculations, classes)</li>
+                <li>Basic web development (HTML, CSS)</li>
             </ul>
         </section>
 
-        <section class="resume-section">
-            <h2>Languages</h2>
-            <ul>
-                <li>English</li>
-            </ul>
+        <!-- HIGHLIGHTED PROJECTS -->
+        <section id="projects">
+            <h2>Highlighted Projects</h2>
+
+            <!-- Problem Statement -->
+            <section class="project">
+                <a href="files/problem_statement.pdf">
+                    <h3>Problem Statement</h3>
+                </a>
+                <a href="files/problem_statement.pdf">
+                    <img src="images/problem_statement.png" alt="Problem Statement document preview">
+                </a>
+                <p>
+                    A short description of a real-world problem my team and I identified and want 
+                    to solve using a computing-based solution. The document explains the situation, 
+                    who is affected, and why the problem matters.
+                </p>
+            </section>
+
+            <!-- Affinity Diagram -->
+            <section class="project">
+                <a href="files/Affinity_Diagram.pdf">
+                    <h3>Affinity Diagram</h3>
+                </a>
+                <a href="files/Affinity_Diagram.pdf">
+                    <img src="images/Affinity_Diagram.png" alt="Affinity Diagram preview">
+                </a>
+                <p>
+                    An affinity diagram that organizes ideas related to our problem statement. 
+                    We grouped similar ideas together to see patterns and decide which features 
+                    and directions are most important for our solution.
+                </p>
+            </section>
+
+            <!-- Sketches -->
+            <section class="project">
+                <a href="files/Sketches_DOC.pdf">
+                    <h3>Sketches</h3>
+                </a>
+                <a href="files/Sketches_DOC.pdf">
+                    <img src="images/Sketches_IMG.png" alt="Sketches of solution screens">
+                </a>
+                <p>
+                    Three sketches showing different screens and scenarios for our solution. 
+                    Each sketch includes multiple panels to show how a user would move through 
+                    the app or website and interact with the main features.
+                </p>
+            </section>
+
+            <!-- CODE SAMPLE 1: STOCK TRANSACTION -->
+            <section class="project">
+                <a href="https://github.com/jakea1234/CSCE145-CodeSample1">
+                    <h3>Code Sample 1 – Stock Transaction Program</h3>
+                </a>
+                <a href="https://github.com/jakea1234/CSCE145-CodeSample1">
+                    <img src="images/code_sample1.png" alt="Screenshot of Stock Transaction code">
+                </a>
+                <p>
+                    Java console program that calculates the results of a stock trade. The user enters
+                    the number of shares, purchase price, sale price, and commissions, and the program
+                    computes the total cost, total sale amount, and profit or loss. This sample shows
+                    basic Java input, output, arithmetic, and formatting.
+                </p>
+            </section>
+
+            <!-- CODE SAMPLE 2: DISTANCE CONVERTER -->
+            <section class="project">
+                <a href="https://github.com/jakea1234/CSCE145-CodeSample2">
+                    <h3>Code Sample 2 – Distance Converter</h3>
+                </a>
+                <a href="https://github.com/jakea1234/CSCE145-CodeSample2">
+                    <img src="images/code_sample2.png" alt="Screenshot of Distance Converter code">
+                </a>
+                <p>
+                    Java program that converts a distance value from one unit to another. The user
+                    enters a distance and the program shows the converted value. This code practices
+                    using variables, calculations, and simple user interaction in Java.
+                </p>
+            </section>
+
+            <!-- CODE SAMPLE 3: CONCERT PROMOTER -->
+            <section class="project">
+                <a href="https://github.com/jakea1234/CSCE190-CodeSample3">
+                    <h3>Code Sample 3 – Concert Promoter</h3>
+                </a>
+                <a href="https://github.com/jakea1234/CSCE190-CodeSample3">
+                    <img src="images/code_sample3.png" alt="Screenshot of Concert Promoter code">
+                </a>
+                <p>
+                    Java application that helps a concert promoter estimate ticket revenue. Based on
+                    ticket price, number of tickets sold, and expenses, the program calculates total
+                    income and profit. This example shows how to combine user input with arithmetic
+                    to solve a practical problem.
+                </p>
+            </section>
         </section>
 
-        <section class="resume-section">
-            <h2>Employment History</h2>
-
-            <div class="job">
-                <h3>Construction &amp; Architectural Assistant</h3>
-                <p class="job-meta">
-                    Farrell William Associates Architects • Highland Park, IL • Oct 2024 – Aug 2025
-                </p>
-                <ul>
-                    <li>Executed general construction tasks including framing, drywall installation, and electrical work.</li>
-                    <li>Supported residential and commercial projects through skilled trade and general labor.</li>
-                    <li>Helped manage project timelines to keep work on schedule.</li>
-                    <li>Collaborated with team members to improve workflow and communication.</li>
-                    <li>Followed safety protocols to maintain a secure work environment.</li>
-                </ul>
-            </div>
-
-            <div class="job">
-                <h3>Legal Admin</h3>
-                <p class="job-meta">
-                    Direct Auto Insurance Company • Chicago, IL • May 2023 – Jul 2025
-                </p>
-                <ul>
-                    <li>Supported policyholders at a publicly traded A-rated insurance carrier in Chicago.</li>
-                    <li>Served as a regional expert for the ImageRight document system, fixing corrupt litigation files.</li>
-                    <li>Managed and processed legal vendor invoices across jurisdictions.</li>
-                    <li>Helped automate the lawsuit assignment process, saving 375+ labor hours in nine months.</li>
-                </ul>
-            </div>
-
-            <div class="job">
-                <h3>Landscaper</h3>
-                <p class="job-meta">
-                    Killeen Landscape Company • Highland Park, IL • Mar 2024 – Feb 2025
-                </p>
-                <ul>
-                    <li>Performed lawn maintenance including mowing, edging, and trimming.</li>
-                    <li>Collected and removed leaves, branches, and other outdoor debris.</li>
-                    <li>Operated landscaping equipment safely and efficiently.</li>
-                </ul>
-            </div>
+        <!-- CONTACT (OPTIONAL) -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                Email: <a href="mailto:adelman.jake@yahoo.com">adelman.jake@yahoo.com</a><br>
+                GitHub: <a href="https://github.com/jakea1234">github.com/jakea1234</a>
+            </p>
         </section>
+    </main>
 
-        <section class="resume-section">
-            <h2>Education</h2>
-
-            <div class="edu">
-                <h3>Bachelor of Science, Civil Engineering</h3>
-                <p class="job-meta">
-                    University of South Carolina • Columbia, SC • May 2025 – Present
-                </p>
-                <ul>
-                    <li>Currently working toward a Civil Engineering degree.</li>
-                </ul>
-            </div>
-
-            <div class="edu">
-                <h3>High School Diploma</h3>
-                <p class="job-meta">
-                    Highland Park High School • Highland Park, IL • Sept 2021 – May 2025
-                </p>
-                <ul>
-                    <li>Graduated with “Giant Honors” all four years.</li>
-                    <li>2 years Varsity Baseball, 1 year Varsity Baseball Captain.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="resume-section">
-            <h2>References</h2>
-            <ul>
-                <li>Steve Tews – Direct Auto Insurance • 630-730-0278</li>
-                <li>Bill Farrell – Farrell William Associates Architects • 224-522-5222</li>
-            </ul>
-        </section>
-    </div>
-
-    <footer class="resume-footer">
-        Content created with help from ChatGPT.
+    <footer>
+        <p>Content created with help from ChatGPT.</p>
     </footer>
 </body>
 </html>
