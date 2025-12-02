@@ -1,90 +1,44 @@
-body {
-  background-color: #101820;
-  color: #FEE715;
-  font-family: Arial, sans-serif;
-  text-align: center;
+.resume-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
 }
 
-h1 {
-  color: #FEE715;
+.resume-header h1 {
+    text-align: center;
+    margin-bottom: 5px;
 }
 
-p {
-  font-size: 18px;
+.resume-header p {
+    text-align: center;
+    margin-top: 0;
 }
 
-section {
-  margin: 20px auto;
-  padding: 15px;
-  border-radius: 10px;
-  background-color: #1A1A1A;
-  width: 80%;
+.resume-section {
+    margin-top: 20px;
 }
 
-/* Remove dots from skills list */
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+.resume-section h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
 }
 
-li {
-  margin: 5px 0;
+.job-meta {
+    font-style: italic;
+    font-size: 0.95em;
+    margin-bottom: 5px;
 }
 
-/* Section background colors */
-.about { background-color: #272727; }
-.skills { background-color: #333333; }
-.projects { background-color: #3E3E3E; }
-.contact { background-color: #4A4A4A; }
-
-/* -------------------------------------- */
-/* Center and style Problem Statement section */
-/* -------------------------------------- */
-.projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 40px auto;
-  width: 80%;
+.resume-section ul {
+    margin-top: 5px;
+    padding-left: 20px;
 }
 
-.project {
-  background-color: #1A1A1A;
-  padding: 25px;
-  border-radius: 15px;
-  width: 60%;
-  text-align: center;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-}
-
-.project h3 {
-  color: #FEE715;
-  margin-bottom: 10px;
-  text-decoration: none;
-}
-
-.project a {
-  color: #FEE715;
-  text-decoration: none;
-}
-
-.project a:hover {
-  text-decoration: underline;
-}
-
-.project img {
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
-  margin-top: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.project p {
-  max-width: 600px;
-  margin: 15px auto 5px auto;
-  line-height: 1.4;
-  color: #FEE715;
+.resume-footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 30px;
 }
