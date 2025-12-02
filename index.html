@@ -1,144 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Jake Adelman - CSCE 190 Portfolio</title>
-    <link rel="stylesheet" href="site.css?v=2">
+  <title>CSCE 190: Jake Adelman</title>
+  <link rel="stylesheet" href="styles.css?v=15">
 </head>
 <body>
-    <header>
-        <h1>Jake Adelman</h1>
-        <h2>CSCE 190 - Computing in the Modern World</h2>
-    </header>
+  <h1>Jake Adelman V2</h1>
+  <p>This page is for CSCE 190</p>
 
-    <main>
-        <!-- ABOUT ME SECTION -->
-        <section id="about" class="about">
-            <h2>About Me</h2>
-            <p>
-                My name is Jake Adelman. I am a first-year Civil Engineering student at the 
-                University of South Carolina. I am interested in construction, structural design, 
-                and how technology and software can help solve real-world problems.
-            </p>
-            <p>
-                My mission is to keep improving my technical skills in both coding and civil engineering, 
-                so I can work on projects that are useful, efficient, and safe. I want to bring my work 
-                ethic from construction and sports into my classes, internships, and future career.
-            </p>
-        </section>
+  <!-- About Section -->
+  <section class="about">
+    <h2>About</h2>
+    <p>Hi, I'm Jake Adelman, a student learning computer science at USC.</p>
+  </section>
 
-        <!-- SKILLS / RESUME SECTION -->
-        <section id="skills" class="skills">
-            <h2>Skills</h2>
-            <p>
-                <strong>My resume:</strong>
-                <a href="files/resumev2.pdf">PDF version</a> |
-                <a href="resume.html">HTML version</a>
-            </p>
-            <ul>
-                <li>General labor and construction (framing, drywall, painting, roofing)</li>
-                <li>Document management software (ImageRight)</li>
-                <li>Microsoft 365 Suite</li>
-                <li>Basic Java programming (input, output, calculations, classes)</li>
-                <li>Basic web development (HTML, CSS)</li>
-            </ul>
-        </section>
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java programming</li>
+      <li>Web design</li>
+      <li>Problem solving</li>
+    </ul>
+    <!-- NEW: Resume links added (does not change old stuff) -->
+    <p>
+      <strong>My resume:</strong>
+      <a href="files/resumev2.pdf" target="_blank">PDF version</a> |
+      <a href="resume.html" target="_blank">HTML version</a>
+    </p>
+  </section>
 
-        <!-- HIGHLIGHTED PROJECTS -->
-        <section id="projects" class="projects">
-            <h2>Highlighted Projects</h2>
+  <!-- Placeholder Projects Section -->
+  <section class="projects">
+    <h2>Projects</h2>
+    <p>Coming soon — my future class and personal projects!</p>
+  </section>
 
-            <!-- Problem Statement -->
-            <section class="project">
-                <h3>Problem Statement</h3>
-                <p>
-                    A short description of a real-world problem my team and I identified and want 
-                    to solve using a computing-based solution. The document explains the situation, 
-                    who is affected, and why the problem matters.
-                </p>
-                <button onclick="window.location.href='files/problem_statement.pdf'">
-                    View Problem Statement (PDF)
-                </button>
-            </section>
+  <!-- Problem Statement Assignment -->
+  <div class="projects">
+    <section class="project">
+      <a href="files/statement.pdf" target="_blank">
+        <h3>Problem Statement</h3>
+      </a>
+      <a href="files/statement.pdf" target="_blank">
+        <img src="images/problem.png" alt="Problem Statement Screenshot" width="400">
+      </a>
+      <p>College students often struggle to find affordable and healthy meals on campus because dining options are limited and expensive.</p>
+    </section>
+  </div>
 
-            <!-- Affinity Diagram -->
-            <section class="project">
-                <h3>Affinity Diagram</h3>
-                <p>
-                    An affinity diagram that organizes ideas related to our problem statement. 
-                    We grouped similar ideas together to see patterns and decide which features 
-                    and directions are most important for our solution.
-                </p>
-                <button onclick="window.location.href='files/Affinity_Diagram.pdf'">
-                    View Affinity Diagram (PDF)
-                </button>
-            </section>
+  <!-- Affinity Diagram Assignment -->
+  <div class="projects">
+    <section class="project">
+      <a href="files/affinity.pdf" target="_blank">
+        <h3>Affinity Diagram</h3>
+      </a>
+      <a href="files/affinity.pdf" target="_blank">
+        <img src="images/affinityv2.png" alt="Affinity Diagram Screenshot" width="600">
+      </a>
+      <p>An Affinity Diagram showing the causes, effects, and possible solutions for college students struggling to find affordable and healthy meals on campus.</p>
+    </section>
+  </div>
 
-            <!-- Sketches -->
-            <section class="project">
-                <h3>Sketches</h3>
-                <p>
-                    Three sketches showing different screens and scenarios for our solution. 
-                    Each sketch includes multiple panels to show how a user would move through 
-                    the app or website and interact with the main features.
-                </p>
-                <button onclick="window.location.href='files/Sketches_DOC.pdf'">
-                    View Sketches (PDF)
-                </button>
-            </section>
+  <!-- Sketches Assignment -->
+  <div class="projects">
+    <section class="project">
+      <a href="files/sketches.pdf" target="_blank">
+        <h3>Sketches</h3>
+      </a>
+      <a href="files/sketches.pdf" target="_blank">
+        <img src="images/sketches.png" alt="Sketches Screenshot" width="500">
+      </a>
+      <p>A screenshot displaying all three multi-screen concept sketches for the Campus Meals app. Click above to view the full PDF containing all sketches.</p>
+    </section>
+  </div>
 
-            <!-- CODE SAMPLE 1: STOCK TRANSACTION -->
-            <section class="project">
-                <h3>Code Sample 1 – Stock Transaction Program</h3>
-                <p>
-                    Java console program that calculates the results of a stock trade. The user enters
-                    the number of shares, purchase price, sale price, and commissions, and the program
-                    computes the total cost, total sale amount, and profit or loss.
-                </p>
-                <button onclick="window.location.href='https://github.com/jakea1234/CSCE145-CodeSample1'">
-                    View Code Sample 1 (GitHub)
-                </button>
-            </section>
+  <!-- NEW: Code Sample 1 -->
+  <div class="projects">
+    <section class="project">
+      <h3>Code Sample 1 – Stock Transaction Program</h3>
+      <p>
+        Java console program that calculates the results of a stock trade. The user enters
+        the number of shares, purchase price, sale price, and commissions, and the program
+        computes total cost, total sale amount, and profit or loss.
+      </p>
+      <p>
+        <a href="https://github.com/jakea1234/CSCE145-CodeSample1" target="_blank">
+          View Code Sample 1 on GitHub
+        </a>
+      </p>
+    </section>
+  </div>
 
-            <!-- CODE SAMPLE 2: DISTANCE CONVERTER -->
-            <section class="project">
-                <h3>Code Sample 2 – Distance Converter</h3>
-                <p>
-                    Java program that converts a distance value from one unit to another. The user
-                    enters a distance and the program shows the converted value. This code practices
-                    using variables, calculations, and simple user interaction in Java.
-                </p>
-                <button onclick="window.location.href='https://github.com/jakea1234/CSCE145-CodeSample2'">
-                    View Code Sample 2 (GitHub)
-                </button>
-            </section>
+  <!-- NEW: Code Sample 2 -->
+  <div class="projects">
+    <section class="project">
+      <h3>Code Sample 2 – Distance Converter</h3>
+      <p>
+        Java program that converts a distance value from one unit to another. This sample
+        shows variables, calculations, and simple user input.
+      </p>
+      <p>
+        <a href="https://github.com/jakea1234/CSCE145-CodeSample2" target="_blank">
+          View Code Sample 2 on GitHub
+        </a>
+      </p>
+    </section>
+  </div>
 
-            <!-- CODE SAMPLE 3: CONCERT PROMOTER -->
-            <section class="project">
-                <h3>Code Sample 3 – Concert Promoter</h3>
-                <p>
-                    Java application that helps a concert promoter estimate ticket revenue. Based on
-                    ticket price, number of tickets sold, and expenses, the program calculates total
-                    income and profit.
-                </p>
-                <button onclick="window.location.href='https://github.com/jakea1234/CSCE190-CodeSample3'">
-                    View Code Sample 3 (GitHub)
-                </button>
-            </section>
-        </section>
+  <!-- NEW: Code Sample 3 -->
+  <div class="projects">
+    <section class="project">
+      <h3>Code Sample 3 – Concert Promoter</h3>
+      <p>
+        Java application that helps a concert promoter estimate revenue and profit based on 
+        ticket price, number of tickets sold, and expenses.
+      </p>
+      <p>
+        <a href="https://github.com/jakea1234/CSCE190-CodeSample3" target="_blank">
+          View Code Sample 3 on GitHub
+        </a>
+      </p>
+    </section>
+  </div>
 
-        <!-- CONTACT -->
-        <section id="contact" class="contact">
-            <h2>Contact</h2>
-            <p>
-                Email: <a href="mailto:adelman.jake@yahoo.com">adelman.jake@yahoo.com</a><br>
-                GitHub: <a href="https://github.com/jakea1234">github.com/jakea1234</a>
-            </p>
-        </section>
-    </main>
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: adelmanj@email.sc.edu</p>
+  </section>
 
-    <footer>
-        <p>Content created with help from ChatGPT.</p>
-    </footer>
 </body>
 </html>
