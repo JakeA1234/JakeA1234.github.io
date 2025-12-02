@@ -68,14 +68,14 @@ a:hover {
   text-decoration: underline;
 }
 
-/* --- Small extras: keep style consistent --- */
-
+/* Headings inside sections */
 h2 {
   color: #FEE715;
   margin-top: 0;
 }
 
-/* Resume page container (dark theme too) */
+/* ===== Resume page styling (dark theme) ===== */
+
 .resume-container {
   max-width: 800px;
   margin: 40px auto;
@@ -117,4 +117,21 @@ h2 {
   font-size: 0.85em;
   color: #FEE715;
   margin-top: 30px;
+}
+
+/* ===== Code sample buttons ===== */
+
+.code-button {
+  display: inline-block;
+  padding: 10px 16px;
+  margin-top: 10px;
+  background-color: #FEE715;
+  color: #101820;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;  /* override link default */
+}
+
+.code-button:hover {
+  background-color: #FFF56A;
 }
